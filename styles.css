@@ -1,0 +1,27 @@
+
+* {
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'Zeyada', cursive;
+    font-size: 200px;
+    font-weight: 100;
+}
+/* Reset margins and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    background-color: #DBBEC0;
+    height: 100vh;
+}
+
+main {
+    margin-top: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
