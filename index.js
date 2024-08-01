@@ -1,16 +1,16 @@
 'use strict';
 
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
+consoleText(['Marissa Lamothe', 'Front End Web Developer', 'Freelancer'], 'text',['#00FF00','#FFBF00','#00FFFF']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
-  var visible = true;
-  var con = document.getElementById('console');
-  var letterCount = 1;
-  var x = 1;
-  var waiting = false;
-  var target = document.getElementById(id)
+  let visible = true;
+  let con = document.getElementById('console');
+  let letterCount = 1;
+  let x = 1;
+  let waiting = false;
+  let target = document.getElementById(id)
   target.setAttribute('style', 'color:' + colors[0])
   window.setInterval(function() {
 
@@ -51,3 +51,5 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
+
+
